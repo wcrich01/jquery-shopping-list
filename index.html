@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Shopping List</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h2>My Shopping Lish</h2>
+            
+            <div>
+                <input class="js-new-item form-control" name="listItem" type="text" placeholder="Add Shopping Item">
+                <span class="input-group-btn">
+                    <button class="js-add btn btn-default" type="button">Add</button>
+                </span>
+            </div>
+            
+            <ul>
+                <li>
+                    <div class="checkbox">
+                    <label><input class="js-item"  name="list" type="checkbox">Carrot</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                    <label><input class="js-item"  name="list" type="checkbox">Book</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="removed">
+                    <label><input class="js-item" name="list" type="checkbox">Gift for Aunt's Birthday</label>
+                    </div>
+                </li>
+            </ul>
+            
+            <div>
+                <hr />
+                <em>Change The Title Of Your Shopping List Here</em>
+                <input class="form-control form-control-sm js-change-title" text="text" value="My Shopping List">
+            </div>
+            
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

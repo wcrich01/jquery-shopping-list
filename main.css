@@ -1,0 +1,26 @@
+.container{
+    width: 60%;
+    margin: 20px auto 0 auto;
+}
+
+.removed{
+    opacity: .7;
+}
+
+.removed label{
+    text-decoration: line-through;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
